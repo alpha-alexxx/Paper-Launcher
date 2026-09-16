@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="paper_tone_label">Paper Tone</string>
+    <string name="paper_tone_warm">Warm</string>
+    <string name="paper_tone_cold">Cold</string>
+    <string name="paper_tone_pure_white">Pure White</string>
+    
+    <string name="grain_intensity_label">Grain Intensity</string>
+    
+    <string name="contrast_label">Contrast</string>
+    <string name="contrast_low">Low</string>
+    <string name="contrast_standard">Standard</string>
+    <string name="contrast_high">High</string>
+    <string name="contrast_extra_high">Extra High</string>
+    
+    <string name="icon_style_label">Icon Style</string>
+    <string name="icon_style_flat_mono">Flat Mono</string>
+    <string name="icon_style_line_art">Line Art</string>
+    <string name="icon_style_stamp">Stamp</string>
+    
+    <string name="display_options_label">Display Options</string>
+    <string name="page_turn_animation_label">Page Turn Animation</string>
+    <string name="auto_day_night_label">Auto Day/Night Switch</string>
+    
+    <string name="system_wide_filter_label">System-Wide Filter</string>
+    <string name="filter_state_disabled">Filter is disabled</string>
+    <string name="filter_state_permission_required">Permission required - enable in settings</string>
+    <string name="filter_state_active">Filter is active</string>
+    <string name="filter_state_error">Error - check logs</string>
+    <string name="filter_pro_required">Pro tier required for system-wide filter</string>
+    <string name="overlay_permission_required">Overlay permission required</string>
+    <string name="accessibility_service_required">Accessibility service must be enabled</string>
+    
+    <string name="upgrade_pro_title">Upgrade to Pro</string>
+    <string name="upgrade_pro_description">Unlock system-wide filter, all icon styles, and premium grain textures</string>
+    <string name="upgrade_pro_button">Upgrade to Pro</string>
+    <string name="restore_purchases_button">Restore</string>
+    
+    <string name="accessibility_service_description">E-Paper Launcher uses this accessibility service to apply a visual filter that transforms your screen into an e-ink/paper style for reduced eye strain and distraction-free usage. The service only detects app-switch events to trigger page-turn animations and draws the visual overlay. It does NOT read, log, or transmit any screen content or personal data.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Widget titles -->
+    <string name="widget_weather_title">Weather</string>
+    <string name="widget_calendar_title">Calendar</string>
+    <string name="widget_todo_title">My Tasks</string>
+    
+    <!-- Weather widget strings -->
+    <string name="weather_updated_format">Updated %s</string>
+    <string name="weather_humidity_format">💧 %d%%</string>
+    <string name="weather_wind_format">💨 %.1f km/h</string>
+    
+    <!-- Calendar widget strings -->
+    <string name="calendar_no_events">No upcoming events</string>
+    <string name="calendar_all_day">All day</string>
+    <string name="calendar_more_events">+%d more</string>
+    
+    <!-- Todo widget strings -->
+    <string name="todo_no_tasks">No tasks yet</string>
+    <string name="todo_add_task">+ Add task</string>
+    <string name="todo_more_tasks">+%d more</string>
+    <string name="todo_progress_format">%d/%d</string>
+    
+    <!-- Common strings -->
+    <string name="widget_just_now">just now</string>
+    <string name="widget_minutes_ago">%dm ago</string>
+    <string name="widget_hours_ago">%dh ago</string>
+    <string name="widget_days_ago">%dd ago</string>
+</resources>
