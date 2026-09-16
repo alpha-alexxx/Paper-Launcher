@@ -1,49 +1,84 @@
-```
-# Android
-*.apk
-*.aar
-*.ap_
+```gitignore
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
 build/
+target/
 .gradle/
-local.properties
 
-# Kotlin
-*.kotlin_metadata
-
-# Gradle
-.gradle/
-build/
-
-# IDE
-.idea/
-*.iml
-*.ipr
-*.iws
-.vscode/
-
-# System
-.DS_Store
-Thumbs.db
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.po
+*~
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
 # Logs
 *.log
+*.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Temp files
-*.tmp
-*.temp
-*.bak
-
-# Compressed
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -62,4 +97,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
