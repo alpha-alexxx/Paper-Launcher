@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-Paper Launcher</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">E-Paper Launcher uses this accessibility service to apply a paper-style visual filter across your entire screen for reduced eye strain and an e-ink reading experience. The service detects app switches to trigger page-turn animations and renders the visual overlay. No screen content is read, stored, or transmitted.</string>
+    
+    <!-- Permissions rationale -->
+    <string name="permission_rationale_overlay">E-Paper Launcher needs overlay permission to draw the paper-style filter on top of other apps. This enables the e-ink visual effect system-wide.</string>
+    <string name="permission_rationale_accessibility">The accessibility service allows E-Paper Launcher to detect when you switch apps and apply smooth page-turn transitions, plus render the paper filter overlay.</string>
+    <string name="permission_rationale_screen_capture">For the full system-wide paper filter, E-Paper Launcher needs to capture your screen temporarily. All processing happens on-device in real-time—no frames are saved or sent anywhere.</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_filter">Filter Engine</string>
+    <string name="notification_filter_active">Paper filter active</string>
+    <string name="notification_filter_tap_to_disable">Tap to disable</string>
+</resources>

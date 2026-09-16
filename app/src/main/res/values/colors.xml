@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paper tone - WARM (default) -->
+    <color name="paper_warm_background">#FFF4F1EA</color>
+    <color name="paper_warm_surface">#FFEDE8DE</color>
+    <color name="paper_warm_ink">#FF2B2A28</color>
+    <color name="paper_warm_ink_muted">#FF6B6862</color>
+    <color name="paper_warm_divider">#FFD8D3C7</color>
+
+    <!-- Paper tone - COLD -->
+    <color name="paper_cold_background">#FFF2F3F4</color>
+    <color name="paper_cold_surface">#FFE8E9EA</color>
+    <color name="paper_cold_ink">#FF232527</color>
+    <color name="paper_cold_ink_muted">#FF66696C</color>
+    <color name="paper_cold_divider">#FFD4D6D8</color>
+
+    <!-- Paper tone - PURE WHITE -->
+    <color name="paper_pure_background">#FFFFFFFF</color>
+    <color name="paper_pure_surface">#FFF7F7F7</color>
+    <color name="paper_pure_ink">#FF000000</color>
+    <color name="paper_pure_ink_muted">#FF5C5C5C</color>
+    <color name="paper_pure_divider">#FFE0E0E0</color>
+
+    <!-- Dark mode variants -->
+    <color name="paper_dark_background">#FF1C1B19</color>
+    <color name="paper_dark_surface">#FF262523</color>
+    <color name="paper_dark_ink">#FFE8E5DD</color>
+    <color name="paper_dark_ink_muted">#FF9C988F</color>
+    <color name="paper_dark_divider">#FF3A3835</color>
+
+    <!-- Accent (muted, never saturated) -->
+    <color name="paper_accent">#FF8A7F6A</color>
+
+    <!-- System UI -->
+    <color name="system_status_bar">@android:color/transparent</color>
+    <color name="system_nav_bar">@android:color/transparent</color>
+</resources>

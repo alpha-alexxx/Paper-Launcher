@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EPaperLauncher" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/system_status_bar</item>
+        <item name="android:navigationBarColor">@color/system_nav_bar</item>
+        <item name="android:windowBackground">@color/paper_dark_background</item>
+        <item name="android:colorBackground">@color/paper_dark_background</item>
+        <item name="android:textColorPrimary">@color/paper_dark_ink</item>
+        <item name="android:textColorSecondary">@color/paper_dark_ink_muted</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+uniform shader inputImage;
+uniform float contrast;
+uniform float grainIntensity;
+uniform shader grainTexture;
+uniform float2 resolution;
+uniform float3 inkColor;
+uniform float3 paperColor;
+
+half4 main(float2 coord) {
+    half4 src = inputImage.eval(coord);
+
+    // Luminosity grayscale
+    float gray = dot(src.rgb, float3(0.299, 0.587, 0.114));
+
+    // Contrast curve around midpoint
+    gray = clamp((gray - 0.5) * contrast + 0.5, 0.0, 1.0);
+
+    // Map grayscale value between paper (light) and ink (dark) tones
+    float3 toned = mix(inkColor, paperColor, gray);
+
+    // Grain overlay (tileable noise sampled at screen-space, wrapped)
+    float2 grainCoord = mod(coord, 256.0);
+    half4 grain = grainTexture.eval(grainCoord);
+    float3 result = mix(toned, toned * (0.85 + grain.r * 0.3), grainIntensity);
+
+    return half4(result, src.a);
+}

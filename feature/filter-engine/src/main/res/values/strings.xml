@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">E-Paper Launcher uses this accessibility service to apply a visual filter that transforms your screen into an e-ink/paper style for reduced eye strain and distraction-free usage. The service only detects app-switch events to trigger page-turn animations and draws the visual overlay. It does NOT read, log, or transmit any screen content or personal data.</string>
+    <string name="filter_engine_name">E-Paper Filter Engine</string>
+    <string name="media_projection_consent_title">Screen Capture Permission Required</string>
+    <string name="media_projection_consent_message">To apply the e-paper filter system-wide, E-Paper Launcher needs permission to capture your screen. This is used ONLY for real-time visual filtering - captured frames are processed on-device, never stored or transmitted. You can revoke this permission anytime in system settings.</string>
+</resources>

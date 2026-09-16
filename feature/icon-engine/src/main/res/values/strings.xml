@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_style_flat_monochrome">Flat Monochrome</string>
+    <string name="icon_style_line_art">Line Art</string>
+    <string name="icon_style_stamp">Stamp Style</string>
+    <string name="icon_processing">Processing icon…</string>
+    <string name="icon_cache_cleared">Icon cache cleared</string>
+    <string name="icon_processing_failed">Failed to process icon</string>
+</resources>
